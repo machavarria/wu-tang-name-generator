@@ -27,6 +27,7 @@ function getName(){
     };
 
 
+    // Used AI to help with taking the answers the users submitted and letting the index give them a specfic name
     const firstIndex = results[3] === "Yes" ? 3 : 2;
     const firstName = firstNames[results[0]][firstIndex];
 
